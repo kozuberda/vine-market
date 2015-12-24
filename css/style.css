@@ -1,5 +1,5 @@
 body{
-
+	font:400 16px/1.8 'Lato', Arial, sans-serif;
 }
 
 /* Typography */
@@ -54,4 +54,77 @@ textarea {
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
+	margin-top:80px;
+	margin-bottom:80px;
+	max-width: 1000px;
+	border: 3px solid #47a3da;
+	color:#47a3da
+}
+
+.ba-header {
+	padding:0 0 5px 0;
+	border-bottom:3px solid #47a3da;
+}
+
+main {
+	padding-top:40px;
+}
+
+img {
+	display:block;
+	margin:0 auto;
+}
+
+.ba-width-1-3 {
+	text-align:center;
+
+}
+
+.ba-drink-button {
+	display:inline-block;
+	margin:30px auto;
+	padding: 7px 25px;
+	border: none;
+	border-radius:5%;
+	vertical-align: bottom;
+	color:#fff;
+	background: #47a3da;
+}
+
+
+.ba-drink-button::before {
+	content: "+";
+	width:15px;
+	margin-right:5px;
+    border-radius:50%;
+    color:#47a3da;
+	background: #fff;
+	display:inline-block;
+	font-size:12px;
+}
+
+.ba-width-1-3 a {
+	text-decoration:none;
+	color:#47a3da;
+}
+
+
+.ba-price {
+	color:#c0c0c0;
+	font-size:24px;
+	padding: 0 0 10px 0;
+}
+
+h1 {
+	margin:10px 0;
+}
+
+.ba-about {
+
+	max-width: 300px;
+    height: 90px;
+    margin: 0 auto;
+    color: #47a3da;
+    padding:10px;
+
 }
